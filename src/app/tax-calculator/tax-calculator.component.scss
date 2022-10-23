@@ -1,0 +1,59 @@
+.tax-page{
+    .tabs-section{
+        margin: 20px 0;
+        padding: 20px 0;
+        border-bottom: 1px solid #e1e1e1;
+        .btn-tabs{
+            width: 160px;
+            text-align: center;
+            letter-spacing: 1px;
+            background-color: #fff;
+            outline:none !important;
+            box-shadow: none !important;
+        }
+    }
+
+    .gross-input {
+        margin-bottom: 20px;
+
+        label{
+            font-weight: 600; 
+            color: #5f6063;
+            font-size: 1.1rem;
+            margin-bottom: 6px;       
+        }
+        input {
+            border: 2px solid #e1e1e1;
+            outline: none !important;
+            box-shadow: none !important;
+            border-radius: 8px;
+
+            &:active,
+            &:hover {
+                border: 2px solid #3c4043;
+            }
+
+        }
+    }
+
+    .result-section {
+        padding: 20px 10px;
+        border: 1px solid #f1f1f1;
+        border-radius: 8px;
+        box-shadow: 0 6px 10px 0 rgba(0,0,0,0.09);
+        .d-flex {
+            padding: 5px 0;
+            h6 {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: #3c4043;
+            }
+            span{
+                font-size: 1rem;
+                color: #5f6063;
+            }
+        }        
+    }
+
+    
+}
